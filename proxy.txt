@@ -1,0 +1,2 @@
+#苹果播客域名
+DOMAIN-SUFFIX,podcasts.apple.com
