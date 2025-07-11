@@ -1,4 +1,4 @@
-#一键登录屏蔽
+# 一键登录屏蔽
 DOMAIN-SUFFIX,auth.wosms.cn
 DOMAIN-SUFFIX,config.cmpassport.com
 DOMAIN-SUFFIX,enrichgw.10010.com
@@ -12,4 +12,24 @@ DOMAIN-SUFFIX,mob.com
 DOMAIN-SUFFIX,nishub1.10010.com
 DOMAIN-SUFFIX,opencloud.wostore.cn
 DOMAIN-SUFFIX,ye.dun.163yun.com
+
+# 广告联盟
+DOMAIN-SUFFIX, miaozhen.com
+DOMAIN-KEYWORD, -ad-sign.byteimg.com
+DOMAIN-KEYWORD, -tos.pstatp.com
+DOMAIN-KEYWORD, asiad.byteactivity
+DOMAIN-KEYWORD, pangolin-sdk-toutiao
+DOMAIN-KEYWORD, pglstatp-toutiao
+DOMAIN-KEYWORD, pangolin.snssdk.com
+DOMAIN-KEYWORD, video-cn.snssdk.com
+DOMAIN-SUFFIX, getui.com
+DOMAIN-SUFFIX, getui.net
+DOMAIN-SUFFIX, gepush.com
+DOMAIN-SUFFIX, igexin.com
+DOMAIN-SUFFIX, log.aliyuncs.com
+DOMAIN-SUFFIX, zlsdk.1rtb.net
+# 收集用户隐私联盟，若有问题自行设置白名单
+DOMAIN-KEYWORD, volc
+DOMAIN-KEYWORD, umeng
+
 
