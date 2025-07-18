@@ -1,9 +1,9 @@
 [General]
-name = GeoData UA 重写
-desc = 仅针对 geodata.kelee.one 域名定制请求头
+name = Kelee UA 重写
+desc = 匹配 kelee.one 主域名和全部子域名，定制请求头
 
 [Rewrite]
-^https://geodata\.kelee\.one/ header-replace User-Agent: Loon/877 CFNetwork/3826.500.131 Darwin/24.5.0
-^https://geodata\.kelee\.one/ header-replace Accept: */*
-^https://geodata\.kelee\.one/ header-replace Accept-Language: zh-CN,zh-Hans;q=0.9
-^https://geodata\.kelee\.one/ header-replace Accept-Encoding: gzip, deflate, br
+^https?:\/\/([a-zA-Z0-9_-]+\.)*kelee\.one\/ header-replace User-Agent: Loon/877 CFNetwork/3826.500.131 Darwin/24.5.0
+^https?:\/\/([a-zA-Z0-9_-]+\.)*kelee\.one\/ header-replace Accept: */*
+^https?:\/\/([a-zA-Z0-9_-]+\.)*kelee\.one\/ header-replace Accept-Language: zh-CN,zh-Hans;q=0.9
+^https?:\/\/([a-zA-Z0-9_-]+\.)*kelee\.one\/ header-replace Accept-Encoding: gzip, deflate, br
