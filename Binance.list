@@ -1,20 +1,14 @@
-# Binance 
-
 DOMAIN-SUFFIX, binance.cc
 DOMAIN-SUFFIX, binance.charity
 DOMAIN-SUFFIX, binance.cloud
 DOMAIN-SUFFIX, binance.co
 DOMAIN-SUFFIX, binance.com
-DOMAIN-SUFFIX, binance.im
 DOMAIN-SUFFIX, binance.info
+DOMAIN-SUFFIX, binance.me
 DOMAIN-SUFFIX, binance.net
 DOMAIN-SUFFIX, binance.org
 DOMAIN-SUFFIX, binance.us
 DOMAIN-SUFFIX, binance.vision
-DOMAIN-SUFFIX, binance.click
-DOMAIN-SUFFIX, binance.im
-DOMAIN-SUFFIX, binance.me
-DOMAIN-SUFFIX, binanceapi.com
 DOMAIN-SUFFIX, binancecnt.com
 DOMAIN-SUFFIX, binancezh.be
 DOMAIN-SUFFIX, binancezh.biz
@@ -31,20 +25,15 @@ DOMAIN-SUFFIX, binancezh.net
 DOMAIN-SUFFIX, binancezh.pro
 DOMAIN-SUFFIX, binancezh.sh
 DOMAIN-SUFFIX, binancezh.top
+
+# API
+DOMAIN-SUFFIX, binanceapi.com
 DOMAIN-SUFFIX, bnbstatic.com
-DOMAIN-SUFFIX, bnbzh.ac
-DOMAIN-SUFFIX, bnappzh.co
-DOMAIN-SUFFIX, bntrace.com
-DOMAIN-SUFFIX, public.nftstatic.com
-DOMAIN-SUFFIX, saasexch.cc
-DOMAIN-SUFFIX, saasexch.co
+
+# saas
 DOMAIN-SUFFIX, saasexch.com
 DOMAIN-SUFFIX, saasexch.io
-DOMAIN-SUFFIX, yingwangtech.cc
-DOMAIN-SUFFIX, yingwangtech.cloud
-DOMAIN-SUFFIX, yingwangtech.club
-DOMAIN-SUFFIX, yingwangtech.mobi
-DOMAIN-SUFFIX, yingwangtech.net
+DOMAIN-SUFFIX, appsflayer.com
 
 # Related Domains
 DOMAIN, addfd325e6e3.cdn4.forter.com,
@@ -58,11 +47,3 @@ DOMAIN, domain-config-1306379396.file.myqcloud.com
 DOMAIN, b2d8207c-e08a-45cd-bc97-268da85016d2-addfd325e6e3.cdn.forter.com
 DOMAIN, bin-prod-new-websocket-alb-1463526464.ap-northeast-1.elb.amazonaws.com
 DOMAIN, aad90d5c0e88c4b4285bd912f64d970d-1403944741.ap-northeast-1.elb.amazonaws.com
-
-IP-CIDR, 47.107.98.27/32, 
-IP-CIDR, 47.107.127.135/32, 
-IP-CIDR, 52.68.117.1/32, 
-IP-CIDR, 35.77.148.188/32, 
-IP-CIDR, 54.150.106.1/32, 
-IP-CIDR, 13.248.135.87/32, 
-IP-CIDR, 47.107.32.31/32, 
