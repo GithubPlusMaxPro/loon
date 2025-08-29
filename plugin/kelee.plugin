@@ -3,4 +3,5 @@
 #!desc = 匹配 kelee.one 主域名和全部子域名，定制请求头
 
 [Rewrite]
-^https?:\/\/([a-zA-Z0-9_-]+\.)?kelee\.one\/$ header-replace User-Agent Loon/877\x20CFNetwork/3826.500.131\x20Darwin/24.5.0
+http-request ^https?:\/\/([^\/]+\.)?kelee\.one(\/|$) header-replace User-Agent Loon/877\x20CFNetwork/3826.500.131\x20Darwin/24.5.0
+
