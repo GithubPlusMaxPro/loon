@@ -1,7 +1,3 @@
-
-
-# 节点质量判断地址，需要特定节点代理
-DOMAIN-KEYWORD,tktn.be
 # 以下规则必须走代理
 DOMAIN-SUFFIX,tktn.at
 DOMAIN-SUFFIX,tktn.be
