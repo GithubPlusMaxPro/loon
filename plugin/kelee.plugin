@@ -1,8 +1,12 @@
+
+
 [General]
 #!name = Kelee UA 重写
-#!desc = 匹配 kelee.one 主域名和全部子域名，定制请求头
+#!desc = 匹配 kelee.one 主域名及全部子域名，伪装 Loon 请求头
+
 [Rewrite]
-^https?:\/\/([^\/]+\.)?kelee\.one header-replace User-Agent Loon/877\x20CFNetwork/3826.500.131\x20Darwin/24.5.0
+^https?:\/\/(?:[a-zA-Z0-9-]+\.)*kelee\.one(?::\d+)?(?:\/|$) header-replace User-Agent Loon/1005\x20CFNetwork/3896.100.1.2.1\x20Darwin/27.0.0
+
 [MITM]
 hostname = kelee.one, *.kelee.one
 
