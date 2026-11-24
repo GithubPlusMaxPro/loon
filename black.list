@@ -32,5 +32,7 @@ DOMAIN-SUFFIX, zlsdk.1rtb.net
 # 收集用户隐私联盟，若有问题自行设置白名单
 DOMAIN-KEYWORD, volc
 DOMAIN-KEYWORD, umeng
+# wechat httpdns
+IP-CIDR,43.159.235.61/32
 
 
