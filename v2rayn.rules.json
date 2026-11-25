@@ -1,0 +1,293 @@
+[
+  {
+    "remarks": "游戏直连-Steam国内CDN与游戏",
+    "outboundTag": "direct",
+    "domain": [
+      "domain:cm.steampowered.com",
+      "domain:steamserver.net",
+      "domain:steampipe.steamcontent.tnkjmec.com",
+      "domain:st.dl.eccdnx.com",
+      "domain:st.dl.bscstorage.net",
+      "domain:st.dl.pinyuncloud.com",
+      "domain:dl.steam.clngaa.com",
+      "domain:cdn.mileweb.cs.steampowered.com.8686c.com",
+      "domain:cdn-ws.content.steamchina.com",
+      "domain:cdn-qc.content.steamchina.com",
+      "domain:cdn-ali.content.steamchina.com",
+      "domain:xz.pphimalayanrt.com",
+      "domain:lv.queniujq.cn",
+      "domain:alibaba.cdn.steampipe.steamcontent.com",
+      "geosite:category-games@cn"
+    ]
+  },
+  {
+    "remarks": "游戏直连-SteamIP",
+    "outboundTag": "direct",
+    "ip": [
+      "45.121.184.0/24",
+      "103.10.124.0/23",
+      "103.28.54.0/24",
+      "146.66.152.0/24",
+      "146.66.155.0/24",
+      "153.254.86.0/24",
+      "155.133.224.0/22",
+      "155.133.230.0/24",
+      "155.133.232.0/23",
+      "155.133.234.0/24",
+      "155.133.236.0/22",
+      "155.133.240.0/23",
+      "155.133.244.0/23",
+      "155.133.246.0/24",
+      "155.133.248.0/21",
+      "162.254.192.0/21",
+      "185.25.182.0/23",
+      "190.217.32.0/22",
+      "192.69.96.0/22",
+      "205.196.6.0/24",
+      "208.64.200.0/22",
+      "208.78.164.0/22",
+      "205.185.194.0/24"
+    ]
+  },
+  {
+    "remarks": "苹果谷歌国内直连",
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:apple-cn",
+      "geosite:apple@cn",
+      "geosite:google-cn"
+    ]
+  },
+  {
+    "remarks": "屏蔽QUIC(UDP443)",
+    "outboundTag": "block",
+    "network": "udp",
+    "port": "443"
+  },
+  {
+    "remarks": "游戏代理",
+    "outboundTag": "proxy",
+    "domain": [
+      "domain:steamcommunity.com",
+      "domain:store.steampowered.com",
+      "domain:checkout.steampowered.com",
+      "domain:api.steampowered.com",
+      "domain:help.steampowered.com",
+      "domain:login.steampowered.com",
+      "domain:store.akamai.steamstatic.com",
+      "domain:steambroadcast.akamaized.net",
+      "domain:steamvideo-a.akamaihd.net",
+      "domain:steamusercontent-a.akamaihd.net",
+      "domain:steamstore-a.akamaihd.net",
+      "domain:steamcommunity-a.akamaihd.net",
+      "domain:steamcdn-a.akamaihd.net",
+      "domain:steamuserimages-a.akamaihd.net",
+      "domain:community.akamai.steamstatic.com",
+      "domain:avatars.akamai.steamstatic.com",
+      "domain:community.steamstatic.com",
+      "domain:cdn.akamai.steamstatic.com",
+      "domain:avatars.steamstatic.com",
+      "domain:shared.akamai.steamstatic.com",
+      "domain:clan.akamai.steamstatic.com",
+      "domain:cdn.cloudflare.steamstatic.com",
+      "domain:community.cloudflare.steamstatic.com",
+      "domain:store.cloudflare.steamstatic.com",
+      "domain:avatars.cloudflare.steamstatic.com",
+      "domain:clan.cloudflare.steamstatic.com",
+      "domain:shared.cloudflare.steamstatic.com",
+      "domain:steam-chat.com",
+      "domain:steamcloud-ugc.storage.googleapis.com",
+      "domain:steamcloud-eu-ams.storage.googleapis.com",
+      "domain:steamcloud-eu-fra.storage.googleapis.com",
+      "domain:steamcloud-finland.storage.googleapis.com",
+      "domain:steamcloud-saopaulo.storage.googleapis.com",
+      "domain:steamcloud-singapore.storage.googleapis.com",
+      "domain:steamcloud-sydney.storage.googleapis.com",
+      "domain:steamcloud-taiwan.storage.googleapis.com",
+      "domain:steamcloud-eu.storage.googleapis.com",
+      "domain:blizzard.com",
+      "geosite:category-games"
+    ]
+  },
+  {
+    "remarks": "Apple海外服务",
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:apple",
+      "geosite:apple-intelligence"
+    ],
+    "ip": [
+      "139.178.128.0/18",
+      "144.178.0.0/19",
+      "144.178.36.0/22",
+      "144.178.48.0/20",
+      "17.0.0.0/8",
+      "192.35.50.0/24",
+      "198.183.17.0/24",
+      "205.180.175.0/24",
+      "63.92.224.0/19",
+      "65.199.22.0/23",
+      "2403:300::/32",
+      "2620:149::/32",
+      "2a01:b740::/32"
+    ]
+  },
+  {
+    "remarks": "YouTube",
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:youtube"
+    ]
+  },
+  {
+    "remarks": "AI",
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:category-ai-!cn",
+      "domain:deepseek.com",
+      "geosite:meta"
+    ]
+  },
+  {
+    "remarks": "Emby",
+    "outboundTag": "proxy",
+    "domain": [
+      "domain:plus.younoyes.com"
+    ]
+  },
+  {
+    "remarks": "Telegram",
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:telegram"
+    ],
+    "ip": [
+      "149.154.160.0/20",
+      "91.108.4.0/22",
+      "91.108.56.0/24",
+      "109.239.140.0/24",
+      "67.198.55.0/24",
+      "2001:67c:4e8::/48",
+      "2001:b28:f23c::/48",
+      "2001:b28:f23d::/48",
+      "2001:b28:f23f::/48",
+      "2001:b28:f242::/48"
+    ]
+  },
+  {
+    "remarks": "Binance-币安",
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:binance"
+    ]
+  },
+  {
+    "remarks": "OKX-欧易",
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:okx"
+    ]
+  },
+  {
+    "remarks": "Kraken-海妖",
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:kraken",
+      "domain:kraken.com"
+    ]
+  },
+  {
+    "remarks": "Bybit",
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:bybit",
+      "domain:bybit.eu"
+    ]
+  },
+  {
+    "remarks": "GoogleVoice",
+    "outboundTag": "proxy",
+    "domain": [
+      "domain:voice.google.com",
+      "domain:googlevoice.l.google.com",
+      "domain:voice.telephony.goog"
+    ]
+  },
+  {
+    "remarks": "Talkatone",
+    "outboundTag": "proxy",
+    "domain": [
+      "domain:talkatone.com",
+      "domain:tktn.be"
+    ]
+  },
+  {
+    "remarks": "Wise",
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:wise",
+      "domain:wise.com"
+    ]
+  },
+  {
+    "remarks": "PayPal",
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:paypal"
+    ]
+  },
+  {
+    "remarks": "iFast",
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:ifast"
+    ]
+  },
+  {
+    "remarks": "Twitter",
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:twitter"
+    ]
+  },
+  {
+    "remarks": "Facebook",
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:facebook"
+    ]
+  },
+  {
+    "remarks": "局域网与CN国内直连",
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:cn"
+    ],
+    "ip": [
+      "geoip:private",
+      "geoip:cn"
+    ]
+  },
+  {
+    "remarks": "海外IP与域名兜底代理",
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:geolocation-!cn"
+    ],
+    "ip": [
+      "8.8.4.4",
+      "8.8.8.8",
+      "208.67.222.222",
+      "208.67.220.220",
+      "1.1.1.1",
+      "1.1.1.2",
+      "1.0.0.1",
+      "9.9.9.9",
+      "149.112.112.112",
+      "2001:4860:4860::8888",
+      "2001:4860:4860::8844",
+      "2606:4700:4700::1111",
+      "2606:4700:4700::1001"
+    ]
+  }
+]
